@@ -85,6 +85,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="sjE-wS-meT"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="6dG-5e-91J"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.010320852302933625" green="0.034831984442031519" blue="0.2791878172588832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -98,14 +102,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Noticias" id="iHm-bU-Aoo">
                         <barButtonItem key="leftBarButtonItem" image="btnVolver (1)" style="plain" id="qOl-wI-dkY">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hdn-vm-GYf">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hdn-vm-GYf">
                                 <rect key="frame" x="20" y="1" width="24" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="btnVolver (3)"/>
                             </button>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="jwv-n8-zRm">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MNC-UO-Nyw">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MNC-UO-Nyw">
                                 <rect key="frame" x="358" y="4" width="36" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="btnLupita (2)"/>
