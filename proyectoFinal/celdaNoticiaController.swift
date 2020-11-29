@@ -13,4 +13,6 @@ class celdaNoticiaController: UITableViewCell{
     @IBOutlet weak var lblTexto: UILabel!
     @IBOutlet weak var lblFecha: UILabel!
     @IBOutlet weak var imgImagen: UIImageView!
+    @IBOutlet weak var viewNoticias: UIView!
+    
 }

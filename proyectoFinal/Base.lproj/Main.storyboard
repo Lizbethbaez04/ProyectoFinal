@@ -20,7 +20,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e51-jo-ieF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-632" y="139"/>
+            <point key="canvasLocation" x="-564" y="-68"/>
         </scene>
         <!--Noticias-->
         <scene sceneID="tne-QT-ifu">
@@ -30,51 +30,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1og-O3-oZr">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1og-O3-oZr" userLabel="Table View Noticias">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaNoticia" rowHeight="148" id="Pbw-Wk-URo" customClass="celdaNoticiaController" customModule="proyectoFinal" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="148"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pbw-Wk-URo" id="nwR-TI-8Wl">
+                                        <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Pbw-Wk-URo" id="nwR-TI-8Wl">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="148"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnver (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Mmb-HQ-HDz">
                                                     <rect key="frame" x="365" y="59.5" width="29" height="29"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Karlita y la Deni se extrañan aush" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XO5-pr-ZjU">
-                                                    <rect key="frame" x="127" y="31" width="225" height="45.5"/>
-                                                    <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24/11/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90k-Y5-ilh">
+                                                    <rect key="frame" x="156" y="105" width="73" height="19"/>
+                                                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90k-Y5-ilh">
-                                                    <rect key="frame" x="127" y="103" width="41.5" height="20"/>
-                                                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnlogo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="iFI-ea-Jtj">
-                                                    <rect key="frame" x="20" y="31" width="82" height="87"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noticia1" translatesAutoresizingMaskIntoConstraints="NO" id="iFI-ea-Jtj">
+                                                    <rect key="frame" x="20" y="24" width="100" height="100"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="87" id="GsQ-C0-gme"/>
-                                                        <constraint firstAttribute="width" constant="82" id="xqs-hM-sUp"/>
+                                                        <constraint firstAttribute="height" constant="100" id="GsQ-C0-gme"/>
+                                                        <constraint firstAttribute="width" constant="100" id="xqs-hM-sUp"/>
                                                     </constraints>
                                                 </imageView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vhC-kZ-HlP">
+                                                    <rect key="frame" x="128" y="105" width="20" height="19"/>
+                                                    <color key="tintColor" red="0.64940285679999998" green="0.64653694630000003" blue="0.99886053799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="La Karlita y la Deni se extrañan aush" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XO5-pr-ZjU">
+                                                    <rect key="frame" x="130" y="31" width="235" height="47.5"/>
+                                                    <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="20"/>
+                                                    <color key="textColor" red="0.83579157444370666" green="0.8272070468955427" blue="0.97715736040609136" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.010320852300000001" green="0.034831984439999998" blue="0.27918781729999997" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.0040435098451694594" green="0.015642541783508667" blue="0.13959390862944165" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstItem="XO5-pr-ZjU" firstAttribute="leading" secondItem="iFI-ea-Jtj" secondAttribute="trailing" constant="25" id="9Pv-G8-QtY"/>
-                                                <constraint firstItem="90k-Y5-ilh" firstAttribute="leading" secondItem="iFI-ea-Jtj" secondAttribute="trailing" constant="25" id="NXF-nT-suo"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="iFI-ea-Jtj" secondAttribute="bottom" constant="19" id="PwN-Sl-EwA"/>
+                                                <constraint firstItem="Mmb-HQ-HDz" firstAttribute="leading" secondItem="XO5-pr-ZjU" secondAttribute="trailing" id="0sm-ZZ-X2S"/>
+                                                <constraint firstItem="XO5-pr-ZjU" firstAttribute="leading" secondItem="iFI-ea-Jtj" secondAttribute="trailing" constant="10" id="9Pv-G8-QtY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="iFI-ea-Jtj" secondAttribute="bottom" constant="13" id="PwN-Sl-EwA"/>
                                                 <constraint firstItem="Mmb-HQ-HDz" firstAttribute="centerY" secondItem="nwR-TI-8Wl" secondAttribute="centerY" id="WCV-Kj-aXz"/>
                                                 <constraint firstItem="Mmb-HQ-HDz" firstAttribute="trailing" secondItem="nwR-TI-8Wl" secondAttribute="trailingMargin" id="Zfw-dB-vhZ"/>
                                                 <constraint firstItem="XO5-pr-ZjU" firstAttribute="top" secondItem="nwR-TI-8Wl" secondAttribute="topMargin" constant="20" id="cRr-re-QXN"/>
-                                                <constraint firstItem="Mmb-HQ-HDz" firstAttribute="leading" secondItem="XO5-pr-ZjU" secondAttribute="trailing" constant="13" id="i3U-B0-OMm"/>
-                                                <constraint firstItem="iFI-ea-Jtj" firstAttribute="top" secondItem="nwR-TI-8Wl" secondAttribute="topMargin" constant="20" id="qhg-eL-XeC"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="90k-Y5-ilh" secondAttribute="bottom" constant="14" id="sb0-Q4-k0N"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="vhC-kZ-HlP" secondAttribute="bottom" constant="12.5" id="dNr-7G-r7b"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="90k-Y5-ilh" secondAttribute="trailing" constant="20" symbolic="YES" id="efq-7i-jLs"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="90k-Y5-ilh" secondAttribute="bottom" constant="13" id="hiW-50-NZd"/>
+                                                <constraint firstItem="90k-Y5-ilh" firstAttribute="leading" secondItem="vhC-kZ-HlP" secondAttribute="trailing" constant="8" id="l3d-YC-aiN"/>
+                                                <constraint firstItem="iFI-ea-Jtj" firstAttribute="top" secondItem="nwR-TI-8Wl" secondAttribute="topMargin" constant="13" id="qhg-eL-XeC"/>
+                                                <constraint firstItem="vhC-kZ-HlP" firstAttribute="leading" secondItem="iFI-ea-Jtj" secondAttribute="trailing" constant="8" id="uCd-mT-1sn"/>
                                                 <constraint firstItem="iFI-ea-Jtj" firstAttribute="leading" secondItem="nwR-TI-8Wl" secondAttribute="leadingMargin" id="xFI-vk-JsJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -82,6 +89,7 @@
                                             <outlet property="imgImagen" destination="iFI-ea-Jtj" id="BU5-an-coi"/>
                                             <outlet property="lblFecha" destination="90k-Y5-ilh" id="mmt-fg-5KD"/>
                                             <outlet property="lblTexto" destination="XO5-pr-ZjU" id="Kml-Ez-F1N"/>
+                                            <outlet property="viewNoticias" destination="nwR-TI-8Wl" id="sxc-Zj-wEa"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -92,6 +100,7 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.010320852302933625" green="0.034831984442031519" blue="0.2791878172588832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0040435098450000003" green="0.015642541780000001" blue="0.13959390860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1og-O3-oZr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="A5D-Lp-lyW"/>
                             <constraint firstItem="1og-O3-oZr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Dqk-eC-jwo"/>
@@ -119,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="153.62318840579712" y="768.75"/>
+            <point key="canvasLocation" x="1043" y="-68"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="52h-7t-c8J">
@@ -132,7 +141,8 @@
                         <color key="backgroundColor" red="0.0076459095266023349" green="0.029578624467969269" blue="0.26395939090406084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.010320852300000001" green="0.034831984439999998" blue="0.27918781729999997" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="24"/>
+                            <color key="textColor" red="0.64940285682678223" green="0.64653694629669189" blue="0.99886053800582886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
@@ -161,7 +171,8 @@
         <image name="btnLupita (2)" width="18" height="18"/>
         <image name="btnVolver (1)" width="24" height="41"/>
         <image name="btnVolver (3)" width="12" height="21"/>
-        <image name="btnlogo (1)" width="408" height="408"/>
         <image name="btnver (1)" width="29" height="29"/>
+        <image name="clock" catalog="system" width="64" height="60"/>
+        <image name="noticia1" width="640" height="360"/>
     </resources>
 </document>
