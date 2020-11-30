@@ -17,6 +17,11 @@
 		3D5E7A7E256C523F00CD576F /* proyectoFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E7A7D256C523F00CD576F /* proyectoFinalUITests.swift */; };
 		3D5E7A8F256C679D00CD576F /* Noticias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E7A8E256C679D00CD576F /* Noticias.swift */; };
 		3D5E7A91256C6C5900CD576F /* celdaNoticiaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E7A90256C6C5900CD576F /* celdaNoticiaController.swift */; };
+		3D857D3A2574653F00532ACB /* DetallesNoticiasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D857D392574653F00532ACB /* DetallesNoticiasController.swift */; };
+		3D857D3C2574736000532ACB /* Tendencias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D857D3B2574736000532ACB /* Tendencias.swift */; };
+		3D857D3E2574740800532ACB /* CeldaTendendenciaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D857D3D2574740800532ACB /* CeldaTendendenciaController.swift */; };
+		3D857D402574742700532ACB /* DetalleTendenciaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D857D3F2574742700532ACB /* DetalleTendenciaController.swift */; };
+		3D857D42257479B500532ACB /* ViewControllerTendencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D857D41257479B500532ACB /* ViewControllerTendencia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		3D5E7A7F256C523F00CD576F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5E7A8E256C679D00CD576F /* Noticias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noticias.swift; sourceTree = "<group>"; };
 		3D5E7A90256C6C5900CD576F /* celdaNoticiaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaNoticiaController.swift; sourceTree = "<group>"; };
+		3D857D392574653F00532ACB /* DetallesNoticiasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesNoticiasController.swift; sourceTree = "<group>"; };
+		3D857D3B2574736000532ACB /* Tendencias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tendencias.swift; sourceTree = "<group>"; };
+		3D857D3D2574740800532ACB /* CeldaTendendenciaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTendendenciaController.swift; sourceTree = "<group>"; };
+		3D857D3F2574742700532ACB /* DetalleTendenciaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTendenciaController.swift; sourceTree = "<group>"; };
+		3D857D41257479B500532ACB /* ViewControllerTendencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTendencia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				3D5E7A5F256C523900CD576F /* ViewController.swift */,
+				3D857D41257479B500532ACB /* ViewControllerTendencia.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -154,6 +165,10 @@
 			children = (
 				3D5E7A8E256C679D00CD576F /* Noticias.swift */,
 				3D5E7A90256C6C5900CD576F /* celdaNoticiaController.swift */,
+				3D857D392574653F00532ACB /* DetallesNoticiasController.swift */,
+				3D857D3D2574740800532ACB /* CeldaTendendenciaController.swift */,
+				3D857D3F2574742700532ACB /* DetalleTendenciaController.swift */,
+				3D857D3B2574736000532ACB /* Tendencias.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -289,8 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D857D42257479B500532ACB /* ViewControllerTendencia.swift in Sources */,
+				3D857D3C2574736000532ACB /* Tendencias.swift in Sources */,
+				3D857D402574742700532ACB /* DetalleTendenciaController.swift in Sources */,
+				3D857D3E2574740800532ACB /* CeldaTendendenciaController.swift in Sources */,
 				3D5E7A60256C523900CD576F /* ViewController.swift in Sources */,
 				3D5E7A5C256C523900CD576F /* AppDelegate.swift in Sources */,
+				3D857D3A2574653F00532ACB /* DetallesNoticiasController.swift in Sources */,
 				3D5E7A5E256C523900CD576F /* SceneDelegate.swift in Sources */,
 				3D5E7A91256C6C5900CD576F /* celdaNoticiaController.swift in Sources */,
 				3D5E7A8F256C679D00CD576F /* Noticias.swift in Sources */,

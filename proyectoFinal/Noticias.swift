@@ -11,11 +11,17 @@ class Noticias {
     var texto : String
     var fecha: String
     var imagen: String
+    var escritor : String
+    var tituloNoticia : String
+    var noticiaDentro : String
     
-    init(texto: String, fecha: String, imagen: String)
+    init(texto: String, fecha: String, imagen: String, escritor: String, tituloNoticia: String, noticiaDentro: String)
     {
         self.texto = texto
         self.fecha = fecha
         self.imagen = imagen
+        self.escritor = escritor
+        self.tituloNoticia = tituloNoticia
+        self.noticiaDentro = noticiaDentro
     }
 }
